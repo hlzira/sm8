@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+div{
+    padding-top: 10px;
+}
+.title{ 
+	background-color: white;
+	border: 2px dashed black;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.text{
+	max-height: 0;
+	overflow: hidden;
+}
